@@ -1,19 +1,25 @@
 {
-  "name": "dibot",
+  "name": "safcdbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple as fuck discord bot with chatgpt",
   "main": "server.js",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^14.9.0",
-    "openai": "^3.2.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexllllllll/safcdbot.git"
   },
-  "devDependencies": {
-    "eslint": "^8.37.0"
-  }
+  "author": "https://github.com/alexllllllll/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexllllllll/safcdbot/issues"
+  },
+  "homepage": "https://github.com/alexllllllll/safcdbot#readme"
 }
